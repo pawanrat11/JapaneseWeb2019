@@ -1,14 +1,35 @@
-body{
-    background: url(https://www.jqueryscript.net/images/jQuery-Plugin-For-Sakura-Petals-Falling-Animation-Sakura.jpg);
+body {
+    background: url("/docs/img/bg.jpg");
     font-family: 'Kanit', sans-serif;
 }
-nav{
+
+nav {
     background: pink;
 }
-.navbar{
+
+.navbar {
     font-family: 'Kanit', sans-serif;
     font-size: 20px;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-size: 26px;
+    transition: 0.5s;
+}
+
+.navbar-brand:hover {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h4 {
+    color: black;
+    font-size: 26px;
+    transition: 0.5s;
+}
+
+h4:hover {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
 }
