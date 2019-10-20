@@ -33,3 +33,7 @@ h4:hover {
     font-weight: bold;
     text-decoration: none;
 }
+
+span {
+    font-family: 'Noto Sans JP', sans-serif;
+}
