@@ -1,0 +1,328 @@
+﻿{
+    "animal": [
+        {
+            "word": "どうぶつ",
+            "kanji": "動物 ",
+            "meaning": " สัตว์ ",
+            "sound": "โดบุสึ"
+        },
+        {
+            "word": "いぬ",
+            "kanji": "犬 ",
+            "meaning": " สุนัข ",
+            "sound": "อินุ"
+        },
+        {
+            "word": "ねこ",
+            "kanji": "猫 ",
+            "meaning": " แมว ",
+            "sound": "เนะโกะ"
+        },
+        {
+            "word": "うし",
+            "kanji": "牛 ",
+            "meaning": " วัว ",
+            "sound": "อุชิ"
+        },
+        {
+            "word": "ぶた",
+            "kanji": "豚 ",
+            "meaning": " หมู ",
+            "sound": "บุตะ"
+        },
+        {
+            "word": "うま",
+            "kanji": "馬 ",
+            "meaning": " ม้า ",
+            "sound": "อุมะ"
+        },
+        {
+            "word": "ひつじ",
+            "kanji": "羊 ",
+            "meaning": " แกะ ",
+            "sound": "ฮิสึจิ"
+        },
+        {
+            "word": "さる",
+            "kanji": "猿 ",
+            "meaning": " ลิง ",
+            "sound": "ซะรุ"
+        },
+        {
+            "word": "ねずみ",
+            "kanji": "鼠 ",
+            "meaning": " หนู ",
+            "sound": "เนะซุมิ"
+        },
+        {
+            "word": "とら",
+            "kanji": "虎 ",
+            "meaning": " เสือ ",
+            "sound": "โทะระ"
+        },
+        {
+            "word": "オオカミ",
+            "kanji": "狼 ",
+            "meaning": " หมาป่า ",
+            "sound": "โอกะมิ"
+        },
+        {
+            "word": "うさぎ",
+            "kanji": "兎 ",
+            "meaning": " กระต่าย ",
+            "sound": "อุซะงิ"
+        },
+        {
+            "word": "りゅう , たつ",
+            "kanji": " 竜 ",
+            "meaning": " มังกร ",
+            "sound": "รีว, ทะสึ"
+        },
+        {
+            "word": "しか",
+            "kanji": "鹿 ",
+            "meaning": " กวาง ",
+            "sound": "ชิกะ"
+        },
+        {
+            "word": "かえる",
+            "kanji": "蛙 ",
+            "meaning": " กบ ",
+            "sound": "คะเอะรุ"
+        },
+        {
+            "word": "がま",
+            "kanji": "蟇 ",
+            "meaning": " คางคก ",
+            "sound": "กะมะ"
+        },
+        {
+            "word": "しし",
+            "kanji": "獅子 ",
+            "meaning": " สิงโต ",
+            "sound": "ชิชิ"
+        },
+        {
+            "word": "キリン",
+            "kanji": "麒麟 ",
+            "meaning": " ยีราฟ ",
+            "sound": "คิริง"
+        },
+        {
+            "word": "ぞう",
+            "kanji": "象 ",
+            "meaning": " ช้าง ",
+            "sound": "โซ"
+        },
+        {
+            "word": "とり",
+            "kanji": "鳥 ",
+            "meaning": " นก ",
+            "sound": "โทะริ"
+        },
+        {
+            "word": "にわとり",
+            "kanji": "鶏 ",
+            "meaning": " ไก่ ",
+            "sound": "นิวะโตะริ"
+        },
+        {
+            "word": "すずめ",
+            "kanji": "雀 ",
+            "meaning": " นกกระจอก ",
+            "sound": "ซุซุเมะ"
+        },
+        {
+            "word": "からす",
+            "kanji": "烏 ",
+            "meaning": " นกอีกา ",
+            "sound": "คะระซุ"
+        },
+        {
+            "word": "わし",
+            "kanji": "鷲 ",
+            "meaning": " นกอินทรี ",
+            "sound": "วะชิ"
+        },
+        {
+            "word": "たか",
+            "kanji": "鷹 ",
+            "meaning": " เหยี่ยว ",
+            "sound": "ทะกะ"
+        },
+        {
+            "word": "さかな",
+            "kanji": "魚 ",
+            "meaning": " ปลา ",
+            "sound": "ซะกะนะ"
+        },
+        {
+            "word": "たい",
+            "kanji": "鯛 ",
+            "meaning": " ปลากระพงแดง ",
+            "sound": "ไท"
+        },
+        {
+            "word": "えび",
+            "kanji": "海老 ",
+            "meaning": " กุ้ง, กุ้งก้ามกราม ",
+            "sound": "เอะบิ"
+        },
+        {
+            "word": "いわし",
+            "kanji": "鰯 ",
+            "meaning": " ปลาซาร์ดีน ",
+            "sound": "อิวะชิ"
+        },
+        {
+            "word": "まぐろ",
+            "kanji": "鮪 ",
+            "meaning": " ปลาทูน่า ",
+            "sound": "มะงุโระ"
+        },
+        {
+            "word": "かつお",
+            "kanji": "鰹 ",
+            "meaning": " ปลาแห้ง ",
+            "sound": "คะสึโอะ"
+        },
+        {
+            "word": "さんま",
+            "kanji": "秋刀魚 ",
+            "meaning": " ปลาไพค์ ",
+            "sound": "ซัมมะ"
+        },
+        {
+            "word": "あじ",
+            "kanji": "鰺 ",
+            "meaning": " ปลาทูแขก ",
+            "sound": "อะจิ"
+        },
+        {
+            "word": "さば",
+            "kanji": "鯖 ",
+            "meaning": " ปลาแมกเคอเรล ",
+            "sound": "ซะบะ"
+        },
+        {
+            "word": "イカ",
+            "kanji": "烏賊 ",
+            "meaning": " หมึกกระดอง ",
+            "sound": "อิกะ"
+        },
+        {
+            "word": "タコ",
+            "kanji": "蛸 , 章魚 ",
+            "meaning": " หมึกยักษ์ ",
+            "sound": "ทะโกะ"
+        },
+        {
+            "word": "むし",
+            "kanji": "虫 ",
+            "meaning": " แมลง ",
+            "sound": "มุชิ"
+        },
+        {
+            "word": "ちょう",
+            "kanji": "蝶 ",
+            "meaning": " ผีเสื้อ ",
+            "sound": "โช"
+        },
+        {
+            "word": "ガ",
+            "kanji": "蛾 ",
+            "meaning": " มอด ",
+            "sound": "กะ"
+        },
+        {
+            "word": "せみ",
+            "kanji": "蝉 ",
+            "meaning": " จักจั่น ",
+            "sound": "เซะมิ"
+        },
+        {
+            "word": "トンボ",
+            "kanji": "蜻蛉 ",
+            "meaning": " แมลงปอ ",
+            "sound": "ทมโบะ"
+        },
+        {
+            "word": "バッタ",
+            "kanji": "飛蝗 ",
+            "meaning": " ตั๊กแตน ",
+            "sound": "บัตตะ"
+        },
+        {
+            "word": "クモ",
+            "kanji": "蜘蛛 ",
+            "meaning": " แมงมุม ",
+            "sound": "คุโมะ"
+        },
+        {
+            "word": "ホタル",
+            "kanji": "蛍 ",
+            "meaning": " หิ่งห้อย ",
+            "sound": "โฮะตะรุ"
+        },
+        {
+            "word": "ハエ",
+            "kanji": "蝿 , 蠅 ",
+            "meaning": " แมลงวันบ้าน ",
+            "sound": "ฮะเอะ"
+        },
+        {
+            "word": "カ",
+            "kanji": "蚊 ",
+            "meaning": " ยุง ",
+            "sound": "คะ"
+        },
+        {
+            "word": "ゴキブリ",
+            "kanji": "蜚蠊 ",
+            "meaning": " แมลงสาบ ",
+            "sound": "โกะกิบุริ"
+        },
+        {
+            "word": "カタツムリ",
+            "kanji": "蝸牛 ",
+            "meaning": " หอยทาก ",
+            "sound": "คะตะสึมุริ"
+        },
+        {
+            "word": "ナメクジ",
+            "kanji": "蛞蝓 ",
+            "meaning": " ทาก ",
+            "sound": "นะเมะกุจิ"
+        },
+        {
+            "word": "ミミズ",
+            "kanji": "蚯蚓 ",
+            "meaning": " ไส้เดือน ",
+            "sound": "มิมิซุ"
+        },
+        {
+            "word": "かい",
+            "kanji": "貝 ",
+            "meaning": " หอย ",
+            "sound": "ไค"
+        },
+        {
+            "word": "かいがら",
+            "kanji": "貝殻 ",
+            "meaning": " shell ",
+            "sound": "ไคงะระ"
+        },
+        {
+            "word": "トカゲ",
+            "kanji": "蜥蜴 ",
+            "meaning": " จิ้งจก ",
+            "sound": "โทะกะเงะ"
+        },
+        {
+            "word": "へび",
+            "kanji": "蛇 ",
+            "meaning": " งู ",
+            "sound": "เฮะบิ"
+        }
+    ]
+}
