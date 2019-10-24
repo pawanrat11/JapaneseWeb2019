@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>หมวดสัตว์</title>
+    <title>หมวดสี</title>
     <!-- Link CSS , Font -->
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Kanit|Noto+Sans+JP&display=swap" rel="stylesheet">
@@ -41,7 +41,7 @@
     <!-- Web Page -->
     <section class="jumbotron text-center">
         <div class="container">
-            <h1 class="jumbotron-heading">どうぶつ สัตว์</h1>
+            <h1 class="jumbotron-heading">いろ สี</h1>
         </div>
     </section>
     <!-- Word Table -->
@@ -78,22 +78,22 @@
         function myFunction(myObj) {
             var table = document.getElementById('word').getElementsByTagName('tbody')[0];
             // row
-            for (let i = 0; i < myObj.animal.length; i++) {
+            for (let i = 0; i < myObj.color.length; i++) {
                 var row = table.insertRow(-1);
                 //cell
                 for (let j = 0; j < 4; j++) {
                     var cell = row.insertCell(-1);
                     if (j == 0) {
-                        text = myObj.animal[i].word;
+                        text = myObj.color[i].word;
                     }
                     else if (j == 1) {
-                        text = myObj.animal[i].kanji;
+                        text = myObj.color[i].kanji;
                     }
                     else if (j == 2) {
-                        text = myObj.animal[i].sound;
+                        text = myObj.color[i].sound;
                     }
                     else if (j == 3) {
-                        text = myObj.animal[i].meaning;
+                        text = myObj.color[i].meaning;
                     }
 
                     cell.innerHTML = text;

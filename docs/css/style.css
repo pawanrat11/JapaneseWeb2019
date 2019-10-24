@@ -1,6 +1,7 @@
 body {
-    background-image: url("img/bg.jpg");
+    background-image:url(../img/bg.jpg);
     font-family: 'Kanit', sans-serif;
+    
 }
 
 nav {
