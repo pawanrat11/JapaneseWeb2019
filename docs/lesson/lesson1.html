@@ -9,40 +9,40 @@
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Kanit|Noto+Sans+JP&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+
 </head>
 
 <body>
-    <!-- navBars -->
+    <!-- navBars for sub page-->
     <header>
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-                <a class="navbar-brand" href="../index.html">
-                    <img class="logo" src="../img/logo.png" style="width: 5%;">&emsp;ภาษาญี่ปุ่น ขั้นพื้นฐาน
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-                    <div class="navbar-nav ml-auto">
-                        <a class="nav-item nav-link" href="../index.html">หน้าหลัก<span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="../charecter.html">ตัวอักษร<span
-                                class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="../word.html">คำศัพท์</a>
-                        <a class="nav-item nav-link" href="../lesson1.html">ไวยกรณ์</a>
-                        <a class="nav-item nav-link disabled" href="#">เกม</a>
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <a class="navbar-brand" href="../index.html">
+                &emsp;ภาษาญี่ปุ่นขั้นพื้นฐาน
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="../charecter.html">ตัวอักษร<span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="../word.html">คำศัพท์</a>
+                    <a class="nav-item nav-link" href="../lesson.html">ไวยกรณ์</a>
+                    <a class="nav-item nav-link " href="../flash-card.html">ทบทวน</a>
                 </div>
-            </nav>
-        </header>
-    <br><br><br>
-        
-    <!-- Web Page -->
-    <section class="jumbotron text-center">
-        <div class="container">
-            <h1 class="jumbotron-heading">บทที่ 1</h1>
-        </div>
-    </section>
+            </div>
+        </nav>
+    </header>
+     <!-- Heading Section -->
 
+     <div class="jumbotron text-center img-word">
+            <div class="overlay"></div>
+            <div class="inner">
+                <h1 class="jumbotron-heading">บทที่ 1</h1>
+            </div>
+        </div>
+    
     <!-- Conversation -->
     <div class="row">
         <div class="col-md-12 text-center">
@@ -164,7 +164,8 @@
         <script src="../node_modules/jquery/dist/jquery.min.js"></script>
         <!-- Js Script Bootstrap -->
         <script src="../bootstrap/js/bootstrap.min.js"></script>
-
+        <!-- JS Scolling Nav -->
+        <script src="../js/scolling.js"></script>
 
 </body>
 

@@ -1,0 +1,146 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flash card</title>
+    <!-- Link CSS , Font -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit|Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link icon -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Link css for flash card -->
+    <link rel="stylesheet" href="css/flash-style.css">
+    <!-- JS flash card -->
+
+</head>
+
+<body>
+
+   <!-- navBars for mainpage -->
+   <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <a class="navbar-brand" href="index.html">
+                &emsp;ภาษาญี่ปุ่นขั้นพื้นฐาน
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="charecter.html">ตัวอักษร<span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="word.html">คำศัพท์</a>
+                    <a class="nav-item nav-link" href="lesson.html">ไวยกรณ์</a>
+                    <a class="nav-item nav-link" href="flash.html">ทบทวน</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Heading Section -->
+
+    <div class="jumbotron text-center img-index">
+        <div class="overlay"></div>
+
+        <div class="inner">
+            <h1 class="jumbotron-heading">Flash card</h1>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;ทบทวนคำศัพท์
+            </p>
+
+        </div>
+    </div>
+    <!-- Flash card section-->
+
+
+    <div class="container">
+        <button type="button" onclick="request('color')" class="btn btn-secondary">Secondary</button>
+      
+    </div>
+    <div class="flip-card-container">
+        <div class="flip-card ">
+            <div class="flip-card-front ">
+                <h3 id="text-front">โปรดเลือกหมวด</h3>
+            </div>
+            <div class="flip-card-back">
+                <h3 id="text-back"></h3>
+                <h3 id="text-back-meaning"></h3>
+            </div>
+        </div>
+
+    </div>
+    <div id="wrap"><button type="button" class="btn btn-primary btn-lg" onclick="next()">ถัดไป</button>
+    </div>
+
+
+
+    <!-- Footer -->
+
+
+    <!-- JS Random Show Word on Flash Card -->
+    <!-- <script>
+        
+        let requestURL = 'word/dict.json'; // request file JSON
+        let request = new XMLHttpRequest();
+        request.onreadystatechange = function () {
+            if (request.readyState == 4 && request.status == 200) {
+                var myJSON = JSON.parse(request.responseText);
+                myFunction(myJSON);
+            }
+        };
+        request.open("GET", requestURL, true);
+        request.send();
+
+        // show value from JSON file to HTML
+        function myFunction(myObj) {
+            var front = document.getElementById('text-front');
+            front.append(myObj.animal[0].word);
+            // var table = document.getElementById('word').getElementsByTagName('tbody')[0];
+            // // row
+            // for (let i = 0; i < myObj.animal.length; i++) {
+            //     var row = table.insertRow(-1);
+            //     //cell
+            //     for (let j = 0; j < 4; j++) {
+            //         var cell = row.insertCell(-1);
+            //         if (j == 0) {
+            //             text = myObj.animal[i].word;
+            //         }
+            //         else if (j == 1) {
+            //             text = myObj.animal[i].kanji;
+            //         }
+            //         else if (j == 2) {
+            //             text = myObj.animal[i].sound;
+            //         }
+            //         else if (j == 3) {
+            //             text = myObj.animal[i].meaning;
+            //         }
+
+            //         cell.innerHTML = text;
+            //     }
+
+            // }
+
+
+
+        }</script> -->
+
+    <!-- Jquery Bootstrap-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Js Script Bootstrap -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- JS Icon -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!-- Js Scolling Nav -->
+    <script src="js/scolling.js"></script>
+    <!-- JS for flip flash card -->
+    <script src="js/flip.js"></script>
+    <!-- JS for show word on flash card -->
+    <script src="js/random.js"></script>
+
+</body>
+
+</html7

@@ -1,5 +1,5 @@
 
-
+// when scoll > 200 will add class that set bg to black
 $(window).scroll(function () {
   
   if ($(document).scrollTop() > 200) {

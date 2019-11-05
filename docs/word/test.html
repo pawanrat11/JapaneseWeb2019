@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <!-- navBars for sub wordpage-->
+    <!-- navBars -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <a class="navbar-brand" href="../index.html">
@@ -30,7 +30,7 @@
                             class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="../word.html">คำศัพท์</a>
                     <a class="nav-item nav-link" href="../lesson.html">ไวยกรณ์</a>
-                    <a class="nav-item nav-link " href="../flash-card.html">ทบทวน</a>
+                    <a class="nav-item nav-link disabled" href="../flashcard.html">เกม</a>
                 </div>
             </div>
         </nav>
@@ -81,13 +81,16 @@
         function myFunction(myObj) {
             var table = document.getElementById('word').getElementsByTagName('tbody')[0];
             // row
+ 
+            
             for (let i = 0; i < myObj.animal.length; i++) {
                 var row = table.insertRow(-1);
                 //cell
+                var arr = [word];
                 for (let j = 0; j < 4; j++) {
                     var cell = row.insertCell(-1);
                     if (j == 0) {
-                        text = myObj.animal[i].word;
+                        text = myObj.animal[i].arr[0];
                     }
                     else if (j == 1) {
                         text = myObj.animal[i].kanji;
