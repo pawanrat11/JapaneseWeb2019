@@ -9,66 +9,77 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Kanit|Noto+Sans+JP&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
 
 <body>
     <!-- navBars for mainpage -->
     <header>
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-                <a class="navbar-brand" href="index.html">
-                    &emsp;ภาษาญี่ปุ่นขั้นพื้นฐาน
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-                    <div class="navbar-nav ml-auto">
-                        <a class="nav-item nav-link" href="charecter.html">ตัวอักษร<span
-                                class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="word.html">คำศัพท์</a>
-                        <a class="nav-item nav-link" href="lesson.html">ไวยกรณ์</a>
-                        <a class="nav-item nav-link" href="flash-card.html">ทบทวน</a>
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <a class="navbar-brand" href="index.html">
+                &emsp;ภาษาญี่ปุ่นขั้นพื้นฐาน
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="charecter.html">ตัวอักษร<span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="word.html">คำศัพท์</a>
+                    <a class="nav-item nav-link" href="lesson.html">ไวยกรณ์</a>
+                    <a class="nav-item nav-link" href="flash-card.html">ทบทวน</a>
                 </div>
-            </nav>
-        </header>
-    <!-- Heading Section -->
+            </div>
+        </nav>
+    </header> <!-- end-navbars -->
 
+    <!-- Heading Section -->
     <div class="jumbotron text-center img-char">
         <div class="overlay"></div>
         <div class="inner">
             <h1 class="jumbotron-heading">ตัวอักษร</h1>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;ภาษาญี่ปุ่นมีตัวอักษร 3 ชนิด คือ ฮิระงะนะ คะตะกะนะ และคันจิ<br>
-                อักษรฮิระงะนะและคะตะกะนะเป็นตัวอักษรแสดงเสียงและ 1 ตัวอักษรใช้ถ่ายทอด 1 เสียง
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;ภาษาญี่ปุ่นมีตัวอักษร 3 ชนิด คือ ฮิรางานะ คาตากานะ และคันจิ<br>
+                อักษรฮิรางานะ และคาตากานะเป็นตัวอักษรแสดงเสียงและ 1 ตัวอักษรใช้ถ่ายทอด 1 เสียง
             </p>
-            <p class="lead">
-                <a class="btn btn-secondary btn-lg" href="#" role="button">Learn more</a>
-            </p>
+            
         </div>
-    </div>
+    </div> <!-- end-heading section -->
 
     <!-- Content -->
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <h4>ตัวอักษรฮิรางานะ (Hiragana)</h4>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;เป็นตัวอักษรที่ใช้ในคำทั่วๆไป
+            <div class="col-md-4">
+                <h4 class="topic-text">ฮิรางานะ (Hiragana)</h4>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;ฮิรางานะ (Hiragana) เป็นตัวอักษรที่ใช้ในคำทั่วๆไป
                     โดยส่วนใหญ่จะใช้เป็นเสียงที่ใช้อ่านตัวคันจิและใช่เป็นคำช่วยเพื่อให้ประโยคสมบูรณ์ขึ้น
-                    โดยมีตัวอักษรหลักทั้งหมด 46 ตัวอักษร</p><br><br>
+                    โดยมีตัวอักษรหลักทั้งหมด 46 ตัวอักษร</p><br><br><br>
                 <img src="img/char1.jpg" class="img-fluid">
             </div>
-            <div class="col-md-6">
-                <h4>ตัวอักษรคาตาคานะ (katakana)</h4>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;ตัวอักษร คาตาคานะ (KATAKANA) เป็น
+            <div class="col-md-4">
+                <h4 class="topic-text">ตัวอักษรคาตากานะ (Katakana)</h4>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;คาตากานะ (Katakana) เป็น
                     ตัวอักษรที่ใช้สำหรับทับศัพท์คำที่มาจากภาษาต่างประเทศ เช่น แฮมเบอร์เกอร์, คอมพิวเตอร์,
-                    หรือชื่อคนต่างประเทศ(ที่ไม่ใช่คนญี่ปุ่น),ชื่อประเทศต่างๆเป็นต้น โดยมีตัวอักษรหลักและเสียงทั้งหมด
+                    หรือชื่อคนต่างประเทศ (ที่ไม่ใช่คนญี่ปุ่น), ชื่อประเทศต่างๆเป็นต้น โดยมีตัวอักษรหลักและเสียงทั้งหมด
                     46ตัวอักษรเหมือนตัวอักษรฮิรางานะ
-                </p>
+                </p><br>
                 <img src="img/char2.jpg" class="img-fluid">
             </div>
+            <div class="col-md-4">
+                <h4 class="topic-text">คันจิ (Kanji)</h4>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;คันจิ (Kanji) เป็นอักษรที่มีทั้งความหมายและเสียงในตัวเอง โดย คันจิ 1
+                    ตัวจะมีวิธีอ่าน 2 แบบ คือ
+                    <ol>
+                        <li>On-yomi (音読み) เป็นการอ่านแบบจีน เช่น 山 อ่านว่า san แปลว่า ภูเขา</li>
+                        <li>Kun-yomi (訓読み) เป็นการอ่านแบบพ้องเสียงกับคำศัพท์ญี่ปุ่นที่มีอยู่เดิม เช่น 山 จะอ่านว่า yama
+                                ซึ่งแปลว่า ภูเขา เช่นเดียวกัน</li>
+                    </ol>
+                </p>
+                <img src="img/char3.jpg" class="img-fluid" style="width: 100%;">
+            </div>
         </div>
+
     </div>
 
     <!-- Jquery Bootstrap -->

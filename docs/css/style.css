@@ -4,20 +4,25 @@ body {
 }
 
 /* Main Page Image */
-.img-index{
+
+.img-index {
     background: url(../img/bg1.jpg);
 }
-.img-char{
+
+.img-char {
     background: url(../img/bg1.jpg);
 }
-.img-word{
+
+.img-word {
     background: url(../img/bg1.jpg);
 }
-.img-lesson{
+
+.img-lesson {
     background: url(../img/bg1.jpg);
 }
 
 /* Heading Section */
+
 .jumbotron {
     position: relative;
     background-size: cover;
@@ -30,7 +35,7 @@ body {
     color: white;
 }
 
-.jumbotron > .overlay {
+.jumbotron>.overlay {
     position: absolute;
     top: -50;
     right: 0;
@@ -41,42 +46,50 @@ body {
     z-index: 1;
 }
 
-.jumbotron > .inner {
+.jumbotron>.inner {
     position: relative;
     z-index: 2;
 }
+
 /*  Navbar  */
 
 .navbar {
     font-family: 'Kanit', sans-serif;
     font-size: 20px;
-    padding:10 70 10 70;
-
+    padding: 10 70 10 70;
 }
 
 .navbar-brand {
     font-size: 26px;
+}
 
-}
-.navbar-light .navbar-nav .nav-link{
-    color: white;
-}
-.navbar-light .navbar-brand{
+.navbar-light .navbar-nav .nav-link {
     color: white;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
     color: pink;
 }
-.navbar-light .navbar-brand:hover{
+
+.navbar-light .navbar-brand:hover {
     color: pink;
 }
+
 /* Scolling Nav */
-.scolling{
+
+.scolling {
     background: black;
     opacity: 0.9;
 }
+
 /* text */
+h1{
+    font-weight: bold;
+}
 h4 {
     color: black;
     font-size: 26px;
@@ -84,7 +97,7 @@ h4 {
 }
 
 h4:hover {
-    font-weight: bold;
+    color: pink;
 }
 
 span {
@@ -98,7 +111,36 @@ span {
 .lesson {
     font-size: 20px;
 }
+
 /* table font */
+
 tr {
     font-family: 'Noto Sans JP', 'Kanit', sans-serif;
+}
+
+/* under line text */
+.line {
+    background-color: #7d7373;
+    border-radius: 0;
+    height: 5px;
+    width: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.line2 {
+    background-color: #7d7373;
+    border-radius: 0;
+    height: 5px;
+    width: 100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.high-light {
+    color: pink;
+    font-family: 'Kanit', sans-serif;
 }
