@@ -9,7 +9,7 @@ function request(value_cat) {
         if (request.readyState == 4 && request.status == 200) {
             myJSON = JSON.parse(request.responseText);
             category = value_cat; // keep value of category in GLOBAL VARIBLE
-            next(); 
+            next();
         }
     };
     request.open("GET", requestURL, true);
@@ -30,7 +30,17 @@ function next() {
 // show value from JSON file to HTML
 // myObj[catergory(หมวด)][indexของคำในหมวดนั้น][type[ประเภทเป็นญี่ปุ่น/คันจิ]]
 function myFunction() {
-    document.getElementById('text-front').textContent = (myJSON[category][index_cat][type[index_type]]);
-    document.getElementById('text-back').textContent = myJSON[category][index_cat]['word'] + " ("+ myJSON[category][index_cat]['sound']+"), " + myJSON[category][index_cat]['kanji'];
-    document.getElementById('text-back-meaning').textContent = myJSON[category][index_cat]['meaning'];
+    var check = myJSON[category][index_cat][type[index_type]];
+    // if random to word that not have kanji random again
+    if (check.length == 0) {
+        next();
+    }
+    else {
+        document.getElementById('text-front').textContent = (myJSON[category][index_cat][type[index_type]]);
+        document.getElementById('word').textContent = myJSON[category][index_cat]['word'];
+        document.getElementById('sound').textContent = "(" + myJSON[category][index_cat]['sound'] + "), ";
+        document.getElementById('kanji').textContent = myJSON[category][index_cat]['kanji'];
+        document.getElementById('meaning').textContent = myJSON[category][index_cat]['meaning'];
+    }
+
 }

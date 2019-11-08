@@ -40,11 +40,10 @@
                 </div>
             </div>
         </nav>
-
-    </header><!-- end-navBars -->
-
+    </header> <!-- end-navbar -->
 
     <!-- Heading Section -->
+
     <div class="jumbotron text-center img-index">
         <div class="overlay"></div>
 
@@ -52,35 +51,46 @@
             <h1 class="jumbotron-heading">Flash card</h1>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;ทบทวนคำศัพท์
             </p>
+
         </div>
-    </div> <!-- end-heading section -->
-
+    </div>
     <!-- Flash card section-->
+
+
     <div class="container">
-        <button type="button" onclick="request('animal')" class="btn btn-secondary">หมวดสัตว์</button>
-        <button type="button" onclick="request('color')" class="btn btn-secondary">หมวดสี</button>
+        <div class="row">
+            <div class="col-md-12">
+                <button type="button" onclick="request('color')" class="btn btn-secondary">Secondary</button>
 
+            </div>
+            <div class="flip-card-container">
+                <div class="flip-card ">
+                    <div class="flip-card-front ">
+                        <h3 id="text-front">โปรดเลือกหมวด</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <h3 id="text-back">
+                            <span id="word">โปรดเลือกหมวด</span> <br> 
+                            <span id="sound"></span> <br> 
+                            <span id="kanji"></span> <br> 
+                            <span id="meaning"></span> <br>
+                        </h3>
 
-        <div class="flip-card-container">
-            <div class="flip-card ">
-                <div class="flip-card-front ">
-                    <h3 id="text-front">โปรดเลือกหมวด</h3>
-                </div>
-                <div class="flip-card-back">
-                    <h3 id="text-back">โปรดเลือกหมวด</h3>
-                    <h3 id="text-back-meaning"></h3>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="wrap">
-        <button type="button" class="btn btn-primary btn-lg" onclick="next()">ถัดไป</button>
-    </div><!-- end flash-card section -->
+        <div class="row">
+            <div class="col-md-12" id="wrap">
+                <button type="button" class="btn btn-primary btn-lg btn-next" onclick="next()">ถัดไป</button>
 
+            </div>
+        </div>
+    </div>
+    </div>
 
 
     <!-- Footer -->
-
 
 
 
