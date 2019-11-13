@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>หมวดสัตว์</title>
+    <title>หมวดสถานที่</title>
     <!-- Link CSS , Font -->
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Kanit|Noto+Sans+JP&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <!-- navBars -->
+    <!-- navBars for sub wordpage-->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <a class="navbar-brand" href="../index.html">
@@ -30,7 +30,7 @@
                             class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="../word.html">คำศัพท์</a>
                     <a class="nav-item nav-link" href="../lesson.html">ไวยกรณ์</a>
-                    <a class="nav-item nav-link disabled" href="../flashcard.html">เกม</a>
+                    <a class="nav-item nav-link " href="../flash-card.html">ทบทวน</a>
                 </div>
             </div>
         </nav>
@@ -41,7 +41,7 @@
     <div class="jumbotron text-center img-word">
         <div class="overlay"></div>
         <div class="inner">
-            <h1 class="jumbotron-heading">どうぶつ สัตว์</h1>
+            <h1 class="jumbotron-heading">สถานที่</h1>
         </div>
     </div>
 
@@ -81,25 +81,22 @@
         function myFunction(myObj) {
             var table = document.getElementById('word').getElementsByTagName('tbody')[0];
             // row
- 
-            
-            for (let i = 0; i < myObj.animal.length; i++) {
+            for (let i = 0; i < myObj.place.length; i++) {
                 var row = table.insertRow(-1);
                 //cell
-                var arr = [word];
                 for (let j = 0; j < 4; j++) {
                     var cell = row.insertCell(-1);
                     if (j == 0) {
-                        text = myObj.animal[i].arr[0];
+                        text = myObj.place[i].word;
                     }
                     else if (j == 1) {
-                        text = myObj.animal[i].kanji;
+                        text = myObj.place[i].kanji;
                     }
                     else if (j == 2) {
-                        text = myObj.animal[i].sound;
+                        text = myObj.place[i].sound;
                     }
                     else if (j == 3) {
-                        text = myObj.animal[i].meaning;
+                        text = myObj.place[i].meaning;
                     }
 
                     cell.innerHTML = text;

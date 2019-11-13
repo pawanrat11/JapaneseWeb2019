@@ -32,14 +32,16 @@ function next() {
 function myFunction() {
     var check = myJSON[category][index_cat][type[index_type]];
     // if random to word that not have kanji random again
-    if (check.length == 0) {
+    if (check == "–") {
         next();
     }
     else {
         document.getElementById('text-front').textContent = (myJSON[category][index_cat][type[index_type]]);
         document.getElementById('word').textContent = myJSON[category][index_cat]['word'];
-        document.getElementById('sound').textContent = "(" + myJSON[category][index_cat]['sound'] + "), ";
-        document.getElementById('kanji').textContent = myJSON[category][index_cat]['kanji'];
+        document.getElementById('sound').textContent = "(" + myJSON[category][index_cat]['sound'] + ") ";
+        if (check != "-") {
+            document.getElementById('kanji').textContent = myJSON[category][index_cat]['kanji'];
+        }
         document.getElementById('meaning').textContent = myJSON[category][index_cat]['meaning'];
     }
 

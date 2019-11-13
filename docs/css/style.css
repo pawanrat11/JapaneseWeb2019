@@ -31,15 +31,20 @@ body {
     background-size: cover;
     background-position: center center;
     position: relative;
-    top: -40;
+    top: -30;
     bottom: 0;
     height: 60vh;
     padding-top: 200px;
     color: white;
 }
+.description-heading{
+    font-size: 18;
+}
 
 .jumbotron-heading.text-center {
     font-weight: bold;
+    font-size: 36;
+    
 }
 
 .jumbotron>.overlay {
@@ -93,10 +98,13 @@ body {
 .navbar-light .navbar-brand:hover {
     color: pink;
 }
-
+/* card */
+.card-img-top{
+    background: pink;
+}
 /* breakpoint */
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 414px) {
     .navbar {
         font-family: 'Kanit', sans-serif;
         font-size: 18px;
@@ -205,3 +213,5 @@ span {
 tr {
     font-family: 'Noto Sans JP', 'Kanit', sans-serif;
 }
+
+/* button dict */

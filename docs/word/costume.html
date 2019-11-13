@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>หมวดสี</title>
+    <title>หมวดเครื่องแต่งกาย</title>
     <!-- Link CSS , Font -->
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Kanit|Noto+Sans+JP&display=swap" rel="stylesheet">
@@ -14,34 +14,35 @@
 </head>
 
 <body>
-    <!-- navBars for sub wordpage-->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-            <a class="navbar-brand" href="../index.html">
-                &emsp;ภาษาญี่ปุ่นขั้นพื้นฐาน
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link" href="../charecter.html">ตัวอักษร<span
-                            class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="../word.html">คำศัพท์</a>
-                    <a class="nav-item nav-link" href="../lesson.html">ไวยกรณ์</a>
-                    <a class="nav-item nav-link " href="../flash-card.html">ทบทวน</a>
-                </div>
+ <!-- navBars for sub wordpage-->
+ <header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="../index.html">
+            &emsp;ภาษาญี่ปุ่นขั้นพื้นฐาน
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="../charecter.html">ตัวอักษร<span
+                        class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="../word.html">คำศัพท์</a>
+                <a class="nav-item nav-link" href="../lesson.html">ไวยกรณ์</a>
+                <a class="nav-item nav-link " href="../flash-card.html">ทบทวน</a>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
+
 
     <!-- Heading Section -->
 
     <div class="jumbotron text-center img-word">
         <div class="overlay"></div>
         <div class="inner">
-            <h1 class="jumbotron-heading">สี </h1>
+            <h1 class="jumbotron-heading">เครื่องแต่งกาย</h1>
         </div>
     </div>
 
@@ -81,22 +82,22 @@
         function myFunction(myObj) {
             var table = document.getElementById('word').getElementsByTagName('tbody')[0];
             // row
-            for (let i = 0; i < myObj.color.length; i++) {
+            for (let i = 0; i < myObj.costume.length; i++) {
                 var row = table.insertRow(-1);
                 //cell
                 for (let j = 0; j < 4; j++) {
                     var cell = row.insertCell(-1);
                     if (j == 0) {
-                        text = myObj.color[i].word;
+                        text = myObj.costume[i].word;
                     }
                     else if (j == 1) {
-                        text = myObj.color[i].kanji;
+                        text = myObj.costume[i].kanji;
                     }
                     else if (j == 2) {
-                        text = myObj.color[i].sound;
+                        text = myObj.costume[i].sound;
                     }
                     else if (j == 3) {
-                        text = myObj.color[i].meaning;
+                        text = myObj.costume[i].meaning;
                     }
 
                     cell.innerHTML = text;

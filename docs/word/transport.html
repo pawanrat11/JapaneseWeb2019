@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>หมวดสี</title>
+    <title>หมวดการคมนาคม</title>
     <!-- Link CSS , Font -->
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Kanit|Noto+Sans+JP&display=swap" rel="stylesheet">
@@ -41,7 +41,7 @@
     <div class="jumbotron text-center img-word">
         <div class="overlay"></div>
         <div class="inner">
-            <h1 class="jumbotron-heading">สี </h1>
+            <h1 class="jumbotron-heading">การคมนาคม</h1>
         </div>
     </div>
 
@@ -81,22 +81,22 @@
         function myFunction(myObj) {
             var table = document.getElementById('word').getElementsByTagName('tbody')[0];
             // row
-            for (let i = 0; i < myObj.color.length; i++) {
+            for (let i = 0; i < myObj.transportation.length; i++) {
                 var row = table.insertRow(-1);
                 //cell
                 for (let j = 0; j < 4; j++) {
                     var cell = row.insertCell(-1);
                     if (j == 0) {
-                        text = myObj.color[i].word;
+                        text = myObj.transportation[i].word;
                     }
                     else if (j == 1) {
-                        text = myObj.color[i].kanji;
+                        text = myObj.transportation[i].kanji;
                     }
                     else if (j == 2) {
-                        text = myObj.color[i].sound;
+                        text = myObj.transportation[i].sound;
                     }
                     else if (j == 3) {
-                        text = myObj.color[i].meaning;
+                        text = myObj.transportation[i].meaning;
                     }
 
                     cell.innerHTML = text;
