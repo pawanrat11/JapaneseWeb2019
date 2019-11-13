@@ -10,17 +10,20 @@ body {
 }
 
 .img-char {
-    background: url(../img/bg1.jpg);
+    background: url(../img/bg7.jpg);
+    opacity: 0.8;
 }
 
 .img-word {
-    background: url(../img/bg1.jpg);
+    background: url(../img/bg6-2.jpg);
 }
 
 .img-lesson {
-    background: url(../img/bg1.jpg);
+    background: url(../img/9.jpg);
 }
-
+.img-flash {
+    background: url(../img/12.jpg);
+}
 /* Heading Section */
 
 .jumbotron {
@@ -33,17 +36,18 @@ body {
     position: relative;
     top: -30;
     bottom: 0;
-    height: 60vh;
+    height: 70vh;
     padding-top: 200px;
     color: white;
 }
 .description-heading{
-    font-size: 18;
+    font-size: 20;
+    text-shadow: 1px 1px 4px rgba(95, 95, 95, 0.5);
 }
 
 .jumbotron-heading.text-center {
     font-weight: bold;
-    font-size: 36;
+    font-size: 38;
     
 }
 
@@ -102,6 +106,9 @@ body {
 .card-img-top{
     background: pink;
 }
+a:hover{
+    text-decoration: none;
+}
 /* breakpoint */
 
 @media only screen and (max-width: 414px) {
@@ -129,8 +136,8 @@ body {
         position: relative;
         top: -40;
         bottom: 0;
-        height: 70vh;
-        padding-top: 150px;
+        height: 80vh;
+        padding-top: 100px;
         color: white;
     }
     .col-sm-3{
